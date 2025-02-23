@@ -1,0 +1,915 @@
+{
+  "safeMode": false,
+  "token": "NZ7ymXmvJmcSVJ6dzhj/",
+  "windowMaximized": true,
+  "windowSize": [
+    1905.0,
+    1027.0
+  ],
+  "windowPos": [
+    -192.0,
+    90.0
+  ],
+  "invertZoom": false,
+  "pixelRatio": 0.0,
+  "uiTheme": "dark",
+  "cableOpacity": 0.18800008296966553,
+  "cableTension": 0.65799999237060547,
+  "rackBrightness": 0.67600017786026001,
+  "haloBrightness": 0.25,
+  "allowCursorLock": true,
+  "knobMode": 0,
+  "knobScroll": false,
+  "knobLinearSensitivity": 0.0010000000474974513,
+  "knobScrollSensitivity": 0.0010000000474974513,
+  "sampleRate": 48000.0,
+  "threadCount": 1,
+  "tooltips": true,
+  "cpuMeter": false,
+  "lockModules": false,
+  "squeezeModules": true,
+  "preferDarkPanels": false,
+  "frameRateLimit": 30.0,
+  "autosaveInterval": 15.0,
+  "recentPatchPaths": [
+    "/Users/chriscaragianis/Downloads/Moog-DFAM-VCV-2-with-PM/Moog DFAm VCV 2.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/ciani.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/beach.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/bladerunner.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/tune_programmer.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/sqpl.vcv",
+    "/Users/chriscaragianis/Downloads/PERFORMANCE-PATCH.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/tell.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/skull.vcv",
+    "/Users/chriscaragianis/Library/Application Support/Rack2/patches/chorus.vcv"
+  ],
+  "cableColors": [
+    "#f3374b",
+    "#ffb437",
+    "#00b56e",
+    "#3695ef",
+    "#8b4ade"
+  ],
+  "cableLabels": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "cableAutoRotate": true,
+  "autoCheckUpdates": true,
+  "verifyHttpsCerts": true,
+  "showTipsOnLaunch": true,
+  "tipIndex": 0,
+  "browserSort": 2,
+  "browserZoom": -1.0,
+  "pluginSettings": {
+    "4msCompany": {
+      "wifiUrl": "",
+      "wifiPath": 2
+    },
+    "alefsbits": {
+      "global_contrast": 0.89999997615814209,
+      "use_global_contrast": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "module_contrast": [
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209,
+        0.89999997615814209
+      ]
+    }
+  },
+  "moduleInfos": {
+    "4msCompany": {
+      "EnOsc": {
+        "added": 3,
+        "lastAdded": 1740088664.240083
+      },
+      "QPLFO": {
+        "added": 4,
+        "lastAdded": 1739936756.696275
+      }
+    },
+    "AS": {
+      "BPMCalc": {
+        "added": 1,
+        "lastAdded": 1739383952.9968569
+      }
+    },
+    "Ahornberg": {
+      "TapeRecorder": {
+        "added": 1,
+        "lastAdded": 1739555868.6279879
+      }
+    },
+    "Airwin2Rack": {
+      "Airwin2Rack": {
+        "added": 2,
+        "lastAdded": 1739843192.700984
+      }
+    },
+    "AudibleInstruments": {
+      "Branches": {
+        "added": 2,
+        "lastAdded": 1740074348.3233769
+      },
+      "Frames": {
+        "added": 2,
+        "lastAdded": 1739314333.1527309
+      },
+      "Shelves": {
+        "added": 3,
+        "lastAdded": 1739843585.6252
+      }
+    },
+    "BastlPizza": {
+      "Pizza": {
+        "added": 6,
+        "lastAdded": 1740088594.748637
+      }
+    },
+    "Befaco": {
+      "Bandit": {
+        "added": 1,
+        "lastAdded": 1739594618.5147409
+      },
+      "Mixer": {
+        "added": 2,
+        "lastAdded": 1739419501.2370219
+      },
+      "Muxlicer": {
+        "added": 2,
+        "lastAdded": 1740191521.9720759
+      },
+      "Percall": {
+        "added": 1,
+        "lastAdded": 1739677062.713187
+      },
+      "SpringReverb": {
+        "added": 6,
+        "lastAdded": 1739843676.039171
+      }
+    },
+    "Bogaudio": {
+      "Bogaudio-AnalyzerXL": {
+        "added": 1,
+        "lastAdded": 1740199596.7413418
+      },
+      "Bogaudio-Lmtr": {
+        "added": 1,
+        "lastAdded": 1739917885.722491
+      },
+      "Bogaudio-Matrix88": {
+        "added": 1,
+        "lastAdded": 1739901191.9096689
+      },
+      "Bogaudio-Noise": {
+        "added": 1,
+        "lastAdded": 1739901132.16432
+      },
+      "Bogaudio-PEQ6": {
+        "added": 1,
+        "lastAdded": 1739903200.737078
+      },
+      "Bogaudio-Sums": {
+        "added": 1,
+        "lastAdded": 1739900822.7327139
+      },
+      "Bogaudio-Switch": {
+        "added": 2,
+        "lastAdded": 1740262605.6817038
+      },
+      "Bogaudio-VCO": {
+        "added": 6,
+        "lastAdded": 1740276466.5079
+      }
+    },
+    "CVfunk": {
+      "FlowerPatch": {
+        "added": 2,
+        "lastAdded": 1739318537.4531279
+      },
+      "HexMod": {
+        "added": 4,
+        "lastAdded": 1739555120.4906089
+      }
+    },
+    "CharredDesert": {
+      "MixerCV": {
+        "added": 2,
+        "lastAdded": 1739419035.1104488
+      }
+    },
+    "Core": {
+      "AudioInterface": {
+        "added": 2,
+        "lastAdded": 1739469543.177933
+      },
+      "AudioInterface2": {
+        "favorite": true,
+        "added": 19,
+        "lastAdded": 1740262634.2075858
+      },
+      "MIDI-Map": {
+        "added": 5,
+        "lastAdded": 1740159941.0324259
+      },
+      "MIDIToCVInterface": {
+        "added": 4,
+        "lastAdded": 1740104725.579798
+      },
+      "MIDITriggerToCVInterface": {
+        "added": 1,
+        "lastAdded": 1739237949.815382
+      }
+    },
+    "CosineKitty-Sapphire": {
+      "Lark": {
+        "added": 3,
+        "lastAdded": 1740145447.773895
+      }
+    },
+    "DHE-Modules": {
+      "Sequencizer16": {
+        "added": 1,
+        "lastAdded": 1739413750.6176178
+      }
+    },
+    "DanTModules": {
+      "TNM": {
+        "added": 1,
+        "lastAdded": 1739236278.3402128
+      }
+    },
+    "DrumKit": {
+      "SyntheticBassDrum": {
+        "added": 1,
+        "lastAdded": 1739312932.3031249
+      }
+    },
+    "EricaCopies": {
+      "PicoDrums": {
+        "added": 2,
+        "lastAdded": 1739735475.0212989
+      }
+    },
+    "Fundamental": {
+      "8vert": {
+        "added": 8,
+        "lastAdded": 1740193039.3781149
+      },
+      "ADSR": {
+        "added": 9,
+        "lastAdded": 1739842347.313231
+      },
+      "CVMix": {
+        "added": 1,
+        "lastAdded": 1740193150.2277539
+      },
+      "Gates": {
+        "added": 7,
+        "lastAdded": 1740074250.514626
+      },
+      "LFO": {
+        "added": 22,
+        "lastAdded": 1740075534.148335
+      },
+      "Merge": {
+        "added": 2,
+        "lastAdded": 1739554932.7128148
+      },
+      "Mixer": {
+        "added": 7,
+        "lastAdded": 1739735939.2468209
+      },
+      "Mutes": {
+        "added": 2,
+        "lastAdded": 1739281184.876297
+      },
+      "Noise": {
+        "added": 4,
+        "lastAdded": 1739901115.926847
+      },
+      "Process": {
+        "added": 1,
+        "lastAdded": 1739219483.0156169
+      },
+      "Pulses": {
+        "added": 1,
+        "lastAdded": 1739217799.8078048
+      },
+      "Push": {
+        "added": 10,
+        "lastAdded": 1740275200.2530298
+      },
+      "Quantizer": {
+        "added": 5,
+        "lastAdded": 1739677354.573149
+      },
+      "RandomValues": {
+        "added": 2,
+        "lastAdded": 1740160757.6878159
+      },
+      "SEQ3": {
+        "added": 8,
+        "lastAdded": 1739677290.7466278
+      },
+      "SHASR": {
+        "added": 3,
+        "lastAdded": 1740145749.7433569
+      },
+      "Scope": {
+        "added": 9,
+        "lastAdded": 1739936764.638454
+      },
+      "Split": {
+        "added": 2,
+        "lastAdded": 1739554911.6296098
+      },
+      "VCA-1": {
+        "added": 12,
+        "lastAdded": 1740193197.843756
+      },
+      "VCF": {
+        "added": 12,
+        "lastAdded": 1739734878.314728
+      },
+      "VCMixer": {
+        "added": 10,
+        "lastAdded": 1740262581.923244
+      },
+      "VCO": {
+        "added": 11,
+        "lastAdded": 1739734577.3620698
+      },
+      "VCO2": {
+        "added": 2,
+        "lastAdded": 1739545800.371197
+      }
+    },
+    "Hora-Mixers": {
+      "StereoMixer-16-2": {
+        "added": 3,
+        "lastAdded": 1739548142.458786
+      }
+    },
+    "Hugelton": {
+      "K102": {
+        "added": 1,
+        "lastAdded": 1739414478.7343879
+      }
+    },
+    "JW-Modules": {
+      "AbcdSeq": {
+        "added": 1,
+        "lastAdded": 1739469109.7223349
+      }
+    },
+    "LOGinstruments": {
+      "Speck": {
+        "added": 1,
+        "lastAdded": 1739844215.452894
+      }
+    },
+    "ML_modules": {
+      "PolySplitter": {
+        "added": 1,
+        "lastAdded": 1739549555.8440299
+      },
+      "ShiftRegister": {
+        "added": 1,
+        "lastAdded": 1739997463.485574
+      },
+      "TrigSwitch3": {
+        "added": 1,
+        "lastAdded": 1739997473.9595449
+      }
+    },
+    "MSM": {
+      "TreasureVCO": {
+        "added": 3,
+        "lastAdded": 1739734699.8909159
+      }
+    },
+    "MindMeldModular": {
+      "MixMaster": {
+        "added": 2,
+        "lastAdded": 1739550090.5599239
+      }
+    },
+    "NANOModules": {
+      "STFONT": {
+        "added": 1,
+        "lastAdded": 1739235886.596899
+      }
+    },
+    "NOI": {
+      "Pruners": {
+        "added": 1,
+        "lastAdded": 1739555891.637594
+      }
+    },
+    "NYSTHI": {
+      "ExpiredTime": {
+        "added": 1,
+        "lastAdded": 1740190865.9793239
+      },
+      "HotTuna": {
+        "added": 2,
+        "lastAdded": 1740274845.917876
+      },
+      "Programmer": {
+        "added": 6,
+        "lastAdded": 1740274687.4002659
+      },
+      "QuadPanner": {
+        "added": 3,
+        "lastAdded": 1740191868.0452359
+      },
+      "SoyModelSOU": {
+        "added": 3,
+        "lastAdded": 1740192705.4119239
+      },
+      "Spectre": {
+        "added": 1,
+        "lastAdded": 1739319468.752749
+      },
+      "b208_dualLPG": {
+        "added": 1,
+        "lastAdded": 1739903479.1716509
+      },
+      "b208_envelope": {
+        "added": 5,
+        "lastAdded": 1740274768.0206549
+      },
+      "complexSimpler": {
+        "added": 2,
+        "lastAdded": 1739840934.2215688
+      },
+      "mix4": {
+        "added": 2,
+        "lastAdded": 1740144938.7598
+      }
+    },
+    "OhmerPrems": {
+      "FroeZe": {
+        "added": 2,
+        "lastAdded": 1739850036.4970009
+      },
+      "FroeZeX": {
+        "added": 1,
+        "lastAdded": 1739911576.284359
+      }
+    },
+    "PS-PurrSoftware": {
+      "Meander": {
+        "added": 1,
+        "lastAdded": 1739300759.108726
+      }
+    },
+    "RPJVisualizer": {
+      "LFMEmbedded": {
+        "added": 1,
+        "lastAdded": 1740200004.2188709
+      }
+    },
+    "SanguineMonsters": {
+      "Sanguine-Monsters-Raiju": {
+        "added": 1,
+        "lastAdded": 1739936932.190614
+      }
+    },
+    "SanguineMutants": {
+      "Sanguine-Aestus": {
+        "added": 1,
+        "lastAdded": 1739842610.542588
+      },
+      "Sanguine-Temulenti": {
+        "added": 1,
+        "lastAdded": 1739235948.361733
+      }
+    },
+    "SeasideModular": {
+      "Tala": {
+        "added": 2,
+        "lastAdded": 1740191691.7183979
+      }
+    },
+    "Sha-Bang-Modules": {
+      "Photron": {
+        "added": 1,
+        "lastAdded": 1740199926.6504209
+      }
+    },
+    "Sparkette": {
+      "RGBMatrix64": {
+        "added": 1,
+        "lastAdded": 1740200118.294565
+      }
+    },
+    "StellareModular": {
+      "TuringMachine": {
+        "added": 2,
+        "lastAdded": 1740145938.2046809
+      }
+    },
+    "SubmarineFree": {
+      "TD-202": {
+        "added": 3,
+        "lastAdded": 1739908944.2284079
+      }
+    },
+    "SurgeXTRack": {
+      "SurgeXTFXChorus": {
+        "added": 3,
+        "lastAdded": 1739549755.7083349
+      }
+    },
+    "SynthKit": {
+      "ClockDivider": {
+        "added": 4,
+        "lastAdded": 1740193363.1898279
+      }
+    },
+    "SynthesizersDotCom": {
+      "Q105": {
+        "added": 2,
+        "lastAdded": 1740105346.960578
+      },
+      "Q115": {
+        "added": 2,
+        "lastAdded": 1739313577.0388298
+      },
+      "Q123": {
+        "added": 1,
+        "lastAdded": 1740193265.892827
+      },
+      "Q127": {
+        "added": 2,
+        "lastAdded": 1739313015.966527
+      }
+    },
+    "Valley": {
+      "Plateau": {
+        "added": 3,
+        "lastAdded": 1740276620.6208248
+      }
+    },
+    "VultModulesFree": {
+      "Bleak": {
+        "added": 3,
+        "lastAdded": 1740104635.455852
+      },
+      "Unstabile": {
+        "added": 4,
+        "lastAdded": 1740276583.0135748
+      }
+    },
+    "ZZC": {
+      "Clock": {
+        "added": 4,
+        "lastAdded": 1740274708.3941889
+      }
+    },
+    "acModules": {
+      "Rhythm1101": {
+        "added": 1,
+        "lastAdded": 1739735393.579011
+      }
+    },
+    "cf": {
+      "PLAYER": {
+        "added": 3,
+        "lastAdded": 1739841306.905695
+      }
+    },
+    "computerscare": {
+      "computerscare-blank": {
+        "added": 1,
+        "lastAdded": 1739319510.599596
+      },
+      "computerscare-foly-pace": {
+        "added": 1,
+        "lastAdded": 1739319354.830353
+      }
+    },
+    "dbRackModules": {
+      "Drums": {
+        "added": 2,
+        "lastAdded": 1739313218.5103989
+      }
+    },
+    "gregsbrain": {
+      "xVox": {
+        "added": 1,
+        "lastAdded": 1740072828.5775249
+      }
+    },
+    "modular80": {
+      "RadioMusic": {
+        "added": 1,
+        "lastAdded": 1739420420.2541878
+      }
+    },
+    "silver-Visions": {
+      "VideoOut": {
+        "added": 1,
+        "lastAdded": 1739468468.269614
+      }
+    },
+    "squinkylabs-plug1": {
+      "squinkylabs-freqshifter": {
+        "added": 1,
+        "lastAdded": 1739901393.8595688
+      }
+    },
+    "voxglitch": {
+      "cue_research": {
+        "added": 5,
+        "lastAdded": 1739841612.687608
+      },
+      "repeater": {
+        "added": 1,
+        "lastAdded": 1739841117.320266
+      }
+    }
+  },
+  "moduleWhitelist": {
+    "24conditions": [
+      "Loom"
+    ],
+    "4msCompany": [
+      "Drum",
+      "EnOsc",
+      "Freeverb",
+      "PitchShift",
+      "QPLFO"
+    ],
+    "AS": [
+      "BPMCalc",
+      "TremoloFx"
+    ],
+    "Ahornberg": [
+      "Harmonizer",
+      "TapeRecorder"
+    ],
+    "Airwin2Rack": [
+      "Airwin2Rack"
+    ],
+    "AudibleInstruments": [
+      "Branches",
+      "Frames",
+      "Shelves"
+    ],
+    "BastlPizza": [
+      "Pizza"
+    ],
+    "Befaco": [
+      "Bandit",
+      "Kickall",
+      "Mixer",
+      "Muxlicer",
+      "Percall",
+      "SpringReverb"
+    ],
+    "Bogaudio": [
+      "Bogaudio-AddrSeq",
+      "Bogaudio-AnalyzerXL",
+      "Bogaudio-EightFO",
+      "Bogaudio-Lmtr",
+      "Bogaudio-Manual",
+      "Bogaudio-Matrix88",
+      "Bogaudio-Noise",
+      "Bogaudio-PEQ6",
+      "Bogaudio-Sums",
+      "Bogaudio-Switch",
+      "Bogaudio-UMix",
+      "Bogaudio-VCO"
+    ],
+    "CVfunk": [
+      "FlowerPatch",
+      "HexMod"
+    ],
+    "CharredDesert": [
+      "MixerCV"
+    ],
+    "Core": true,
+    "CosineKitty-Sapphire": [
+      "Lark",
+      "TubeUnit"
+    ],
+    "DHE-Modules": [
+      "Sequencizer16"
+    ],
+    "DanTModules": [
+      "TNM"
+    ],
+    "DrumKit": [
+      "SyntheticBassDrum"
+    ],
+    "EricaCopies": [
+      "PicoDrums"
+    ],
+    "FLAG-Free": [
+      "Electric-Ensemble"
+    ],
+    "Fundamental": true,
+    "GrandeModular": [
+      "MergeSplit4"
+    ],
+    "Hora-Mixers": [
+      "StereoMixer-16-2"
+    ],
+    "Hugelton": [
+      "K102"
+    ],
+    "JW-Modules": [
+      "AbcdSeq",
+      "NoteSeq"
+    ],
+    "KautenjaDSP-PotatoChips": [
+      "SuperEcho"
+    ],
+    "LOGinstruments": [
+      "Speck"
+    ],
+    "ML_modules": [
+      "Counter",
+      "PolySplitter",
+      "ShiftRegister",
+      "TrigSwitch3"
+    ],
+    "MSM": [
+      "TreasureVCO"
+    ],
+    "MindMeldModular": [
+      "MixMaster"
+    ],
+    "NANOModules": [
+      "STFONT"
+    ],
+    "NOI": [
+      "Pruners"
+    ],
+    "NYSTHI": [
+      "Ambuance",
+      "DYNAMO",
+      "ExpiredTime",
+      "HotTuna",
+      "Programmer",
+      "QuadPanner",
+      "SoyModelSOU",
+      "Spectre",
+      "b208_dualLPG",
+      "b208_envelope",
+      "complexSimpler",
+      "mix4"
+    ],
+    "OhmerPrems": true,
+    "PS-PurrSoftware": [
+      "Meander"
+    ],
+    "RPJVisualizer": [
+      "LFMEmbedded"
+    ],
+    "SanguineMonsters": [
+      "Sanguine-Monsters-Raiju"
+    ],
+    "SanguineMutants": [
+      "Sanguine-Aestus",
+      "Sanguine-Marmora",
+      "Sanguine-Temulenti"
+    ],
+    "SeasideModular": [
+      "Tala"
+    ],
+    "Sha-Bang-Modules": [
+      "Photron"
+    ],
+    "Sparkette": [
+      "RGBMatrix64"
+    ],
+    "StellareModular": [
+      "TuringMachine"
+    ],
+    "Stoermelder-P1": [
+      "Glue"
+    ],
+    "SubmarineFree": [
+      "TD-202"
+    ],
+    "SurgeXTRack": [
+      "SurgeXTDelayLineByFreqExpanded",
+      "SurgeXTFXChorus",
+      "SurgeXTFXEnsemble",
+      "SurgeXTFXNeuron",
+      "SurgeXTFXPhaser",
+      "SurgeXTFXTreeMonster",
+      "SurgeXTFXVocoder"
+    ],
+    "SynthKit": [
+      "ClockDivider"
+    ],
+    "SynthesizersDotCom": [
+      "Q105",
+      "Q115",
+      "Q123",
+      "Q127"
+    ],
+    "Tonecarver": [
+      "Blur"
+    ],
+    "Valley": [
+      "Plateau"
+    ],
+    "Venom": [
+      "WaveFolder"
+    ],
+    "VultModulesFree": [
+      "Bleak",
+      "Unstabile"
+    ],
+    "ZZC": [
+      "Clock"
+    ],
+    "acModules": [
+      "Rhythm1101"
+    ],
+    "alefsbits": [
+      "polyplay"
+    ],
+    "cf": [
+      "PLAYER"
+    ],
+    "computerscare": [
+      "computerscare-blank",
+      "computerscare-foly-pace"
+    ],
+    "dbRackModules": [
+      "Drums"
+    ],
+    "fruitsofkarma": [
+      "ColoredGlass"
+    ],
+    "gregsbrain": [
+      "xVox"
+    ],
+    "modular80": [
+      "RadioMusic"
+    ],
+    "patina": [
+      "MemoryPad"
+    ],
+    "silver-Visions": [
+      "VideoOut"
+    ],
+    "squinkylabs-plug1": [
+      "squinkylabs-freqshifter",
+      "squinkylabs-vocalfilter"
+    ],
+    "voxglitch": [
+      "cue_research",
+      "repeater",
+      "sampler16p",
+      "wavbank"
+    ]
+  }
+}

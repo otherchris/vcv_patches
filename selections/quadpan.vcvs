@@ -1,0 +1,413 @@
+{
+  "modules": [
+    {
+      "id": 4544579361694439,
+      "plugin": "NYSTHI",
+      "model": "QuadPanner",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 10
+        },
+        {
+          "value": 0.58673739433288574,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 4048568867091165,
+      "rightModuleId": 7710662826161274,
+      "data": {
+        "m_swirling": true,
+        "m_equal_power_panning": false,
+        "m_infinitedistance_center": false,
+        "m_scia_disabled": false,
+        "m_scia_expo_fading": false,
+        "m_use10Vifnoinput": false
+      },
+      "pos": [
+        76,
+        -1
+      ]
+    },
+    {
+      "id": 7710662826161274,
+      "plugin": "NYSTHI",
+      "model": "QuadPanner",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 1.3879525661468506,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": -0.21325300633907318,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 4544579361694439,
+      "rightModuleId": 1346497502994141,
+      "data": {
+        "m_swirling": true,
+        "m_equal_power_panning": false,
+        "m_infinitedistance_center": false,
+        "m_scia_disabled": false,
+        "m_scia_expo_fading": false,
+        "m_use10Vifnoinput": false
+      },
+      "pos": [
+        86,
+        -1
+      ]
+    },
+    {
+      "id": 4048568867091165,
+      "plugin": "NYSTHI",
+      "model": "QuadPanner",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 1.1903619766235352,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.67831325531005859,
+          "id": 10
+        },
+        {
+          "value": 0.49879530072212219,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "rightModuleId": 4544579361694439,
+      "data": {
+        "m_swirling": true,
+        "m_equal_power_panning": false,
+        "m_infinitedistance_center": false,
+        "m_scia_disabled": false,
+        "m_scia_expo_fading": false,
+        "m_use10Vifnoinput": false
+      },
+      "pos": [
+        66,
+        -1
+      ]
+    },
+    {
+      "id": 1346497502994141,
+      "plugin": "NYSTHI",
+      "model": "QuadPanner",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 1.3349404335021973,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 1.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.10000000149011612,
+          "id": 10
+        },
+        {
+          "value": 0.5,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        }
+      ],
+      "leftModuleId": 7710662826161274,
+      "rightModuleId": 7460126686258685,
+      "data": {
+        "m_swirling": true,
+        "m_equal_power_panning": false,
+        "m_infinitedistance_center": false,
+        "m_scia_disabled": false,
+        "m_scia_expo_fading": false,
+        "m_use10Vifnoinput": false
+      },
+      "pos": [
+        96,
+        -1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4974776651527526,
+      "outputModuleId": 7710662826161274,
+      "outputId": 3,
+      "inputModuleId": 1346497502994141,
+      "inputId": 8,
+      "color": "#00b56e"
+    },
+    {
+      "id": 13473886482509,
+      "outputModuleId": 7710662826161274,
+      "outputId": 2,
+      "inputModuleId": 1346497502994141,
+      "inputId": 7,
+      "color": "#3695ef"
+    },
+    {
+      "id": 674651272330378,
+      "outputModuleId": 7710662826161274,
+      "outputId": 1,
+      "inputModuleId": 1346497502994141,
+      "inputId": 6,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 3626761422282039,
+      "outputModuleId": 7710662826161274,
+      "outputId": 0,
+      "inputModuleId": 1346497502994141,
+      "inputId": 5,
+      "color": "#f3374b"
+    },
+    {
+      "id": 5645767818335874,
+      "outputModuleId": 4544579361694439,
+      "outputId": 3,
+      "inputModuleId": 7710662826161274,
+      "inputId": 8,
+      "color": "#ffb437"
+    },
+    {
+      "id": 4056936806652472,
+      "outputModuleId": 4544579361694439,
+      "outputId": 2,
+      "inputModuleId": 7710662826161274,
+      "inputId": 7,
+      "color": "#00b56e"
+    },
+    {
+      "id": 8530455353880824,
+      "outputModuleId": 4544579361694439,
+      "outputId": 1,
+      "inputModuleId": 7710662826161274,
+      "inputId": 6,
+      "color": "#3695ef"
+    },
+    {
+      "id": 7496770574035345,
+      "outputModuleId": 4544579361694439,
+      "outputId": 0,
+      "inputModuleId": 7710662826161274,
+      "inputId": 5,
+      "color": "#8b4ade"
+    },
+    {
+      "id": 4270396503243454,
+      "outputModuleId": 4048568867091165,
+      "outputId": 3,
+      "inputModuleId": 4544579361694439,
+      "inputId": 8,
+      "color": "#ffb437"
+    },
+    {
+      "id": 3386400422493524,
+      "outputModuleId": 4048568867091165,
+      "outputId": 2,
+      "inputModuleId": 4544579361694439,
+      "inputId": 7,
+      "color": "#00b56e"
+    },
+    {
+      "id": 660281789206853,
+      "outputModuleId": 4048568867091165,
+      "outputId": 1,
+      "inputModuleId": 4544579361694439,
+      "inputId": 6,
+      "color": "#3695ef"
+    },
+    {
+      "id": 2989769700078474,
+      "outputModuleId": 4048568867091165,
+      "outputId": 0,
+      "inputModuleId": 4544579361694439,
+      "inputId": 5,
+      "color": "#8b4ade"
+    }
+  ]
+}

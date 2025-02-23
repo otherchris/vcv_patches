@@ -1,0 +1,1478 @@
+{
+  "version": "2.5.2",
+  "path": "/Users/chriscaragianis/Downloads/Moog-DFAM-VCV-2-with-PM/Moog DFAm VCV 2.vcv",
+  "zoom": 0.84089642763137817,
+  "gridOffset": [
+    -29.492317199707031,
+    -0.45690789818763733
+  ],
+  "modules": [
+    {
+      "id": 169,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-VCO",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": -0.95421713590621948,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 1.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 171,
+      "rightModuleId": 175,
+      "data": {
+        "poly_input": 0,
+        "dc_correction": true
+      },
+      "pos": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": 170,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-VCO",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": -2.2228915691375732,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.27108445763587952,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "leftModuleId": 172,
+      "rightModuleId": 176,
+      "data": {
+        "poly_input": 0,
+        "dc_correction": true
+      },
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 171,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 169,
+      "data": {
+        "text": "VCO-1",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 172,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 180,
+      "rightModuleId": 170,
+      "data": {
+        "text": "VCO-2",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        23,
+        0
+      ]
+    },
+    {
+      "id": 173,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Noise",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 174,
+      "rightModuleId": 179,
+      "data": {
+        "poly_channels": 1
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 174,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 176,
+      "rightModuleId": 173,
+      "data": {
+        "text": "Noise",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 175,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Switch",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 169,
+      "rightModuleId": 182,
+      "data": {
+        "save_latched_to_patch": false
+      },
+      "pos": [
+        12,
+        0
+      ]
+    },
+    {
+      "id": 176,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Switch",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 170,
+      "rightModuleId": 174,
+      "data": {
+        "save_latched_to_patch": false
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 179,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 173,
+      "rightModuleId": 224,
+      "pos": [
+        43,
+        0
+      ]
+    },
+    {
+      "id": 180,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Switch",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 181,
+      "rightModuleId": 172,
+      "data": {
+        "save_latched_to_patch": false
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 181,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 182,
+      "rightModuleId": 180,
+      "data": {
+        "text": "Hard Sync",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 182,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 0.66099971532821655,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 175,
+      "rightModuleId": 181,
+      "pos": [
+        15,
+        0
+      ]
+    },
+    {
+      "id": 183,
+      "plugin": "squinkylabs-plug1",
+      "model": "squinkylabs-filt",
+      "version": "2.1.9",
+      "params": [
+        {
+          "value": -1.3073487281799316,
+          "id": 0
+        },
+        {
+          "value": 0.80400031805038452,
+          "id": 1
+        },
+        {
+          "value": 0.27300000190734863,
+          "id": 2
+        },
+        {
+          "value": -4.0240941047668457,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": -5.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 5.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 1.0,
+          "id": 13
+        },
+        {
+          "value": 0.5,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        }
+      ],
+      "leftModuleId": 184,
+      "rightModuleId": 187,
+      "data": {
+        "Polyphonic": false
+      },
+      "pos": [
+        57,
+        0
+      ]
+    },
+    {
+      "id": 184,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 224,
+      "rightModuleId": 183,
+      "data": {
+        "text": "VCF",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        55,
+        0
+      ]
+    },
+    {
+      "id": 185,
+      "plugin": "NYSTHI",
+      "model": "AttackDecay",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.28313258290290833,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.5,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 187,
+      "rightModuleId": 186,
+      "data": {
+        "m_looped": false
+      },
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 186,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 185,
+      "rightModuleId": 188,
+      "pos": [
+        75,
+        0
+      ]
+    },
+    {
+      "id": 187,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 183,
+      "rightModuleId": 185,
+      "data": {
+        "text": "VCA",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        71,
+        0
+      ]
+    },
+    {
+      "id": 188,
+      "plugin": "NYSTHI",
+      "model": "AttackDecay",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.24698783457279205,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 1.0,
+          "id": 3
+        },
+        {
+          "value": 0.5,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 186,
+      "rightModuleId": 195,
+      "data": {
+        "m_looped": false
+      },
+      "pos": [
+        78,
+        0
+      ]
+    },
+    {
+      "id": 189,
+      "plugin": "JW-Modules",
+      "model": "SimpleClock",
+      "version": "2.0.7",
+      "params": [
+        {
+          "value": 1.5169162750244141,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": -2.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 190,
+      "rightModuleId": 198,
+      "data": {
+        "clockMult": 1,
+        "running": true
+      },
+      "pos": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 190,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "rightModuleId": 189,
+      "data": {
+        "text": "Tempo",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 191,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-AddrSeq",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 8.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.41686752438545227,
+          "id": 3
+        },
+        {
+          "value": -1.0,
+          "id": 4
+        },
+        {
+          "value": -0.23373496532440186,
+          "id": 5
+        },
+        {
+          "value": -0.14939770102500916,
+          "id": 6
+        },
+        {
+          "value": -0.28192770481109619,
+          "id": 7
+        },
+        {
+          "value": -0.51325315237045288,
+          "id": 8
+        },
+        {
+          "value": -0.33253017067909241,
+          "id": 9
+        },
+        {
+          "value": 0.34939759969711304,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 194,
+      "data": {
+        "poly_input": 0,
+        "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
+        "wrap_select_at_steps": false,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        57,
+        1
+      ]
+    },
+    {
+      "id": 192,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-AddrSeq",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 8.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.29156625270843506,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.16385543346405029,
+          "id": 6
+        },
+        {
+          "value": 0.23614461719989777,
+          "id": 7
+        },
+        {
+          "value": 0.71807235479354858,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.27710837125778198,
+          "id": 10
+        }
+      ],
+      "leftModuleId": 193,
+      "rightModuleId": 203,
+      "data": {
+        "poly_input": 0,
+        "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
+        "wrap_select_at_steps": false,
+        "range_offset": 0.0,
+        "range_scale": 3.0
+      },
+      "pos": [
+        24,
+        1
+      ]
+    },
+    {
+      "id": 193,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 200,
+      "rightModuleId": 192,
+      "data": {
+        "text": "Pitch",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        22,
+        1
+      ]
+    },
+    {
+      "id": 194,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 207,
+      "rightModuleId": 191,
+      "data": {
+        "text": "Velocity",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 195,
+      "plugin": "Fundamental",
+      "model": "VCA-1",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        }
+      ],
+      "leftModuleId": 188,
+      "pos": [
+        80,
+        0
+      ]
+    },
+    {
+      "id": 196,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Manual",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 198,
+      "rightModuleId": 197,
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true,
+        "output_scale": 1.0
+      },
+      "pos": [
+        8,
+        1
+      ]
+    },
+    {
+      "id": 197,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-UMix",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 196,
+      "rightModuleId": 201,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 198,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 189,
+      "rightModuleId": 196,
+      "data": {
+        "text": "Trigger",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        6,
+        1
+      ]
+    },
+    {
+      "id": 199,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-Manual",
+      "version": "2.4.45",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "leftModuleId": 201,
+      "rightModuleId": 200,
+      "data": {
+        "triggerOnLoad": false,
+        "shouldTriggerOnLoad": true,
+        "output_scale": 1.0
+      },
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 200,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-UMix",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 199,
+      "rightModuleId": 193,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        19,
+        1
+      ]
+    },
+    {
+      "id": 201,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 197,
+      "rightModuleId": 199,
+      "data": {
+        "text": "Advance",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        14,
+        1
+      ]
+    },
+    {
+      "id": 202,
+      "plugin": "AS",
+      "model": "Flow",
+      "version": "2.0.6",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        }
+      ],
+      "leftModuleId": 204,
+      "rightModuleId": 205,
+      "data": {
+        "as_FlowStates": [
+          0,
+          0
+        ]
+      },
+      "pos": [
+        34,
+        1
+      ]
+    },
+    {
+      "id": 203,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 192,
+      "rightModuleId": 204,
+      "data": {
+        "text": "Seq pitch MOD",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        30,
+        1
+      ]
+    },
+    {
+      "id": 204,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 203,
+      "rightModuleId": 202,
+      "data": {
+        "text": "VCO-1        VCO-2",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        32,
+        1
+      ]
+    },
+    {
+      "id": 205,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-UMix",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 202,
+      "rightModuleId": 206,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        40,
+        1
+      ]
+    },
+    {
+      "id": 206,
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-UMix",
+      "version": "2.4.45",
+      "params": [],
+      "leftModuleId": 205,
+      "rightModuleId": 209,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        43,
+        1
+      ]
+    },
+    {
+      "id": 207,
+      "plugin": "NYSTHI",
+      "model": "AttackDecay",
+      "version": "2.4.23",
+      "params": [
+        {
+          "value": 0.13614457845687866,
+          "id": 0
+        },
+        {
+          "value": 0.17200003564357758,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.5,
+          "id": 3
+        },
+        {
+          "value": 0.5,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        }
+      ],
+      "leftModuleId": 208,
+      "rightModuleId": 194,
+      "data": {
+        "m_looped": false
+      },
+      "pos": [
+        53,
+        1
+      ]
+    },
+    {
+      "id": 208,
+      "plugin": "Befaco",
+      "model": "DualAtenuverter",
+      "version": "2.8.2",
+      "params": [
+        {
+          "value": -0.20481927692890167,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": -0.25542172789573669,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        }
+      ],
+      "leftModuleId": 209,
+      "rightModuleId": 207,
+      "pos": [
+        48,
+        1
+      ]
+    },
+    {
+      "id": 209,
+      "plugin": "SubmarineFree",
+      "model": "TD-202",
+      "version": "2.0.4",
+      "params": [],
+      "leftModuleId": 206,
+      "rightModuleId": 208,
+      "data": {
+        "text": "VCO-1 EG      VCO-2 Eg",
+        "fg": "#29b2ef",
+        "bg": "#00000000"
+      },
+      "pos": [
+        46,
+        1
+      ]
+    },
+    {
+      "id": 224,
+      "plugin": "Fundamental",
+      "model": "VCMixer",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.90666192770004272,
+          "id": 1
+        },
+        {
+          "value": 1.0,
+          "id": 2
+        },
+        {
+          "value": 0.69877254962921143,
+          "id": 3
+        },
+        {
+          "value": 1.0,
+          "id": 4
+        }
+      ],
+      "leftModuleId": 179,
+      "rightModuleId": 184,
+      "data": {
+        "chExp": false,
+        "mixExp": false
+      },
+      "pos": [
+        46,
+        0
+      ]
+    },
+    {
+      "id": 8203886258208840,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.5.2",
+      "params": [
+        {
+          "value": 0.0,
+          "id": 0
+        }
+      ],
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "External Headphones",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        78,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 290,
+      "outputModuleId": 207,
+      "outputId": 0,
+      "inputModuleId": 208,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 291,
+      "outputModuleId": 207,
+      "outputId": 0,
+      "inputModuleId": 208,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 289,
+      "outputModuleId": 197,
+      "outputId": 0,
+      "inputModuleId": 207,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 285,
+      "outputModuleId": 202,
+      "outputId": 0,
+      "inputModuleId": 205,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 292,
+      "outputModuleId": 208,
+      "outputId": 0,
+      "inputModuleId": 205,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 286,
+      "outputModuleId": 202,
+      "outputId": 1,
+      "inputModuleId": 206,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 293,
+      "outputModuleId": 208,
+      "outputId": 1,
+      "inputModuleId": 206,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 253,
+      "outputModuleId": 175,
+      "outputId": 0,
+      "inputModuleId": 224,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 254,
+      "outputModuleId": 176,
+      "outputId": 0,
+      "inputModuleId": 224,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 256,
+      "outputModuleId": 179,
+      "outputId": 0,
+      "inputModuleId": 224,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 259,
+      "outputModuleId": 169,
+      "outputId": 2,
+      "inputModuleId": 182,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 261,
+      "outputModuleId": 224,
+      "outputId": 0,
+      "inputModuleId": 183,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 262,
+      "outputModuleId": 185,
+      "outputId": 0,
+      "inputModuleId": 183,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 263,
+      "outputModuleId": 173,
+      "outputId": 0,
+      "inputModuleId": 183,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 287,
+      "outputModuleId": 205,
+      "outputId": 0,
+      "inputModuleId": 169,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 277,
+      "outputModuleId": 197,
+      "outputId": 0,
+      "inputModuleId": 185,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 273,
+      "outputModuleId": 195,
+      "outputId": 0,
+      "inputModuleId": 186,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 264,
+      "outputModuleId": 183,
+      "outputId": 0,
+      "inputModuleId": 186,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 278,
+      "outputModuleId": 197,
+      "outputId": 0,
+      "inputModuleId": 188,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 274,
+      "outputModuleId": 191,
+      "outputId": 0,
+      "inputModuleId": 195,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 266,
+      "outputModuleId": 188,
+      "outputId": 0,
+      "inputModuleId": 195,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 248,
+      "outputModuleId": 169,
+      "outputId": 0,
+      "inputModuleId": 175,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 250,
+      "outputModuleId": 169,
+      "outputId": 2,
+      "inputModuleId": 175,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 275,
+      "outputModuleId": 189,
+      "outputId": 0,
+      "inputModuleId": 197,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 276,
+      "outputModuleId": 196,
+      "outputId": 0,
+      "inputModuleId": 197,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 279,
+      "outputModuleId": 189,
+      "outputId": 0,
+      "inputModuleId": 200,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 280,
+      "outputModuleId": 199,
+      "outputId": 0,
+      "inputModuleId": 200,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 283,
+      "outputModuleId": 192,
+      "outputId": 0,
+      "inputModuleId": 202,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 284,
+      "outputModuleId": 192,
+      "outputId": 0,
+      "inputModuleId": 202,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 282,
+      "outputModuleId": 200,
+      "outputId": 0,
+      "inputModuleId": 191,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 272,
+      "outputModuleId": 189,
+      "outputId": 1,
+      "inputModuleId": 191,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 281,
+      "outputModuleId": 200,
+      "outputId": 0,
+      "inputModuleId": 192,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 271,
+      "outputModuleId": 189,
+      "outputId": 1,
+      "inputModuleId": 192,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 8920355668957611,
+      "outputModuleId": 186,
+      "outputId": 0,
+      "inputModuleId": 8203886258208840,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 255,
+      "outputModuleId": 173,
+      "outputId": 0,
+      "inputModuleId": 179,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 257,
+      "outputModuleId": 169,
+      "outputId": 0,
+      "inputModuleId": 180,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 288,
+      "outputModuleId": 206,
+      "outputId": 0,
+      "inputModuleId": 170,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 258,
+      "outputModuleId": 180,
+      "outputId": 0,
+      "inputModuleId": 170,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 260,
+      "outputModuleId": 182,
+      "outputId": 0,
+      "inputModuleId": 170,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 249,
+      "outputModuleId": 170,
+      "outputId": 0,
+      "inputModuleId": 176,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 251,
+      "outputModuleId": 170,
+      "outputId": 2,
+      "inputModuleId": 176,
+      "inputId": 2,
+      "color": "#c91847"
+    }
+  ],
+  "masterModuleId": 8203886258208840
+}

@@ -1,0 +1,294 @@
+{
+  "modules": [
+    {
+      "id": 7876355368669701,
+      "plugin": "Fundamental",
+      "model": "LFO",
+      "version": "2.6.1",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": -1.9277105331420898,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.5,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        }
+      ],
+      "pos": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": 691026363373824,
+      "plugin": "Befaco",
+      "model": "SpringReverb",
+      "version": "2.8.2",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 1.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.21325293183326721,
+          "id": 3
+        }
+      ],
+      "pos": [
+        38,
+        1
+      ]
+    },
+    {
+      "id": 6652814190193503,
+      "plugin": "voxglitch",
+      "model": "cue_research",
+      "version": "2.32.3",
+      "params": [
+        {
+          "value": 1.0,
+          "id": 0
+        },
+        {
+          "value": 0.0,
+          "id": 1
+        },
+        {
+          "value": 0.0,
+          "id": 2
+        },
+        {
+          "value": 0.0,
+          "id": 3
+        },
+        {
+          "value": 0.0,
+          "id": 4
+        },
+        {
+          "value": 0.0,
+          "id": 5
+        },
+        {
+          "value": 0.0,
+          "id": 6
+        },
+        {
+          "value": 0.0,
+          "id": 7
+        },
+        {
+          "value": 0.0,
+          "id": 8
+        },
+        {
+          "value": 0.0,
+          "id": 9
+        },
+        {
+          "value": 0.0,
+          "id": 10
+        },
+        {
+          "value": 0.0,
+          "id": 11
+        },
+        {
+          "value": 0.0,
+          "id": 12
+        },
+        {
+          "value": 0.0,
+          "id": 13
+        },
+        {
+          "value": 0.0,
+          "id": 14
+        },
+        {
+          "value": 0.0,
+          "id": 15
+        },
+        {
+          "value": 0.0,
+          "id": 16
+        },
+        {
+          "value": 0.0,
+          "id": 17
+        },
+        {
+          "value": 0.0,
+          "id": 18
+        },
+        {
+          "value": 0.0,
+          "id": 19
+        },
+        {
+          "value": 0.0,
+          "id": 20
+        },
+        {
+          "value": 0.0,
+          "id": 21
+        },
+        {
+          "value": 0.0,
+          "id": 22
+        },
+        {
+          "value": 0.0,
+          "id": 23
+        },
+        {
+          "value": 0.0,
+          "id": 24
+        },
+        {
+          "value": 0.0,
+          "id": 25
+        },
+        {
+          "value": 0.0,
+          "id": 26
+        },
+        {
+          "value": 0.0,
+          "id": 27
+        },
+        {
+          "value": 0.0,
+          "id": 28
+        },
+        {
+          "value": 0.0,
+          "id": 29
+        },
+        {
+          "value": 0.0,
+          "id": 30
+        },
+        {
+          "value": 0.0,
+          "id": 31
+        },
+        {
+          "value": 0.0,
+          "id": 32
+        },
+        {
+          "value": 0.0,
+          "id": 33
+        },
+        {
+          "value": 0.0,
+          "id": 34
+        }
+      ],
+      "data": {
+        "loaded_sample_path": "/Users/chriscaragianis/code/projects/newsongs/dump/mbeep.wav",
+        "enable_vertical_drag_zoom": true,
+        "clear_markers_on_sample_load": false,
+        "trigger_length_index": 0.0,
+        "loop_sample_playback": false,
+        "lock_markers": false,
+        "lock_interactions": false,
+        "markers": [
+          {
+            "position": 15498,
+            "output": 0
+          }
+        ],
+        "interpolation": 1,
+        "samples_root_dir": "/Users/chriscaragianis/code/projects/newsongs/dump"
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 2175763631407929,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.5.2",
+      "params": [
+        {
+          "value": 0.92530113458633423,
+          "id": 0
+        }
+      ],
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Model 12",
+          "sampleRate": 48000.0,
+          "blockSize": 256,
+          "inputOffset": 0,
+          "outputOffset": 0
+        },
+        "dcFilter": true
+      },
+      "pos": [
+        22,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 6798665320751714,
+      "outputModuleId": 7876355368669701,
+      "outputId": 3,
+      "inputModuleId": 6652814190193503,
+      "inputId": 0,
+      "color": "#00b56e"
+    },
+    {
+      "id": 2988428280066234,
+      "outputModuleId": 6652814190193503,
+      "outputId": 0,
+      "inputModuleId": 691026363373824,
+      "inputId": 2,
+      "color": "#3695ef"
+    },
+    {
+      "id": 3876950582677415,
+      "outputModuleId": 691026363373824,
+      "outputId": 0,
+      "inputModuleId": 2175763631407929,
+      "inputId": 0,
+      "color": "#8b4ade"
+    }
+  ]
+}
