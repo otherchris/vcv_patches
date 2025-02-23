@@ -1,1 +1,11 @@
 patches filter=lfs diff=lfs merge=lfs -text
+patches/beach.vcv filter=lfs diff=lfs merge=lfs -text
+patches/bladerunner.vcv filter=lfs diff=lfs merge=lfs -text
+patches/ciani.vcv filter=lfs diff=lfs merge=lfs -text
+patches/popcorn.vcv filter=lfs diff=lfs merge=lfs -text
+patches/skull.vcv filter=lfs diff=lfs merge=lfs -text
+patches/tell.vcv filter=lfs diff=lfs merge=lfs -text
+patches/chorus.vcv filter=lfs diff=lfs merge=lfs -text
+patches/fiveyears.vcv filter=lfs diff=lfs merge=lfs -text
+patches/sqpl.vcv filter=lfs diff=lfs merge=lfs -text
+patches/tune_programmer.vcv filter=lfs diff=lfs merge=lfs -text
